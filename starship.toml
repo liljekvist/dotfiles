@@ -34,10 +34,11 @@ show_always = true
 ssh_only = false
 format = "on [$hostname](bold yellow) "
 disabled = false
-
+~
 [directory]
-truncation_length = 10
-truncation_symbol = "…/"
+truncation_length = 0
+truncation_symbol = "~/"
+truncate_to_repo = true
 home_symbol = " ~"
 read_only_style = "197"
 read_only = "  "
