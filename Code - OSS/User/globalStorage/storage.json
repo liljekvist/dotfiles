@@ -5,6 +5,9 @@
         "folders": [
             {
                 "folderUri": "file:///home/liljekvist"
+            },
+            {
+                "folderUri": "file:///home/liljekvist/.config"
             }
         ],
         "emptyWindows": []
@@ -57,17 +60,6 @@
                                     "id": "openRecentFolder",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/liljekvist",
-                                        "path": "/home/liljekvist",
-                                        "scheme": "file"
-                                    },
-                                    "enabled": true,
-                                    "label": "/home/liljekvist"
-                                },
-                                {
-                                    "id": "openRecentFolder",
-                                    "uri": {
-                                        "$mid": 1,
                                         "external": "file:///home/liljekvist/.config",
                                         "path": "/home/liljekvist/.config",
                                         "scheme": "file"
@@ -76,18 +68,62 @@
                                     "label": "~/.config"
                                 },
                                 {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/liljekvist/.config/hypr",
+                                        "path": "/home/liljekvist/.config/hypr",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/hypr"
+                                },
+                                {
                                     "id": "vscode.menubar.separator"
                                 },
                                 {
                                     "id": "openRecentFile",
                                     "uri": {
                                         "$mid": 1,
-                                        "external": "file:///home/liljekvist/Downloads/dotfiles-master-home/home/.bashrc",
-                                        "path": "/home/liljekvist/Downloads/dotfiles-master-home/home/.bashrc",
+                                        "external": "file:///home/liljekvist/.gtkrc-2.0",
+                                        "path": "/home/liljekvist/.gtkrc-2.0",
                                         "scheme": "file"
                                     },
                                     "enabled": true,
-                                    "label": "~/Downloads/dotfiles-master-home/home/.bashrc"
+                                    "label": "~/.gtkrc-2.0"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/liljekvist/.config/gtk-3.0/settings.ini",
+                                        "path": "/home/liljekvist/.config/gtk-3.0/settings.ini",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/gtk-3.0/settings.ini"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/liljekvist/.config/hypr/hyprland.conf",
+                                        "path": "/home/liljekvist/.config/hypr/hyprland.conf",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/hypr/hyprland.conf"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/liljekvist/hyperland.conf.bak",
+                                        "path": "/home/liljekvist/hyperland.conf.bak",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/hyperland.conf.bak"
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -144,13 +180,6 @@
                         "label": "Share",
                         "submenu": {
                             "items": [
-                                {
-                                    "id": "github.copyVscodeDevLinkFile",
-                                    "label": "Copy vscode.dev Link"
-                                },
-                                {
-                                    "id": "vscode.menubar.separator"
-                                },
                                 {
                                     "id": "workbench.profiles.actions.exportProfile",
                                     "label": "Export Settings Profile (Default)..."
@@ -678,8 +707,7 @@
                 "items": [
                     {
                         "id": "workbench.action.navigateBack",
-                        "label": "&&Back",
-                        "enabled": false
+                        "label": "&&Back"
                     },
                     {
                         "id": "workbench.action.navigateForward",
@@ -688,8 +716,7 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location",
-                        "enabled": false
+                        "label": "&&Last Edit Location"
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1552,39 +1579,32 @@
         }
     },
     "theme": "vs-dark",
-    "themeBackground": "#1e1e1e",
+    "themeBackground": "#1e1e2e",
     "windowSplash": {
         "baseTheme": "vs-dark",
         "colorInfo": {
-            "foreground": "#cccccc",
-            "background": "#1e1e1e",
-            "editorBackground": "#1e1e1e",
-            "titleBarBackground": "#3c3c3c",
-            "activityBarBackground": "#333333",
-            "sideBarBackground": "#252526",
-            "statusBarBackground": "#007acc",
-            "statusBarNoFolderBackground": "#68217a"
-        },
-        "layoutInfo": {
-            "sideBarSide": "left",
-            "editorPartMinWidth": 220,
-            "titleBarHeight": 0,
-            "activityBarWidth": 48,
-            "sideBarWidth": 170,
-            "statusBarHeight": 22,
-            "windowBorder": false
+            "foreground": "#cdd6f4",
+            "background": "#1e1e2e",
+            "editorBackground": "#1e1e2e",
+            "titleBarBackground": "#11111b",
+            "activityBarBackground": "#11111b",
+            "sideBarBackground": "#181825",
+            "statusBarBackground": "#11111b",
+            "statusBarNoFolderBackground": "#11111b",
+            "windowBorder": "rgba(0, 0, 0, 0)"
         }
     },
     "windowsState": {
         "lastActiveWindow": {
-            "folder": "file:///home/liljekvist",
-            "backupPath": "/home/liljekvist/.config/Code - OSS/Backups/5be3373f52aa14e53eaa0ceee7bdb617",
+            "folder": "file:///home/liljekvist/.config",
+            "backupPath": "/home/liljekvist/.config/Code - OSS/Backups/0f87e4d589629b7ddadb894530936cb9",
             "uiState": {
-                "mode": 0,
-                "x": 671,
-                "y": 170,
-                "width": 1024,
-                "height": 768
+                "mode": 3,
+                "display": 42,
+                "width": 1896,
+                "height": 1013,
+                "x": 0,
+                "y": 0
             }
         },
         "openedWindows": []

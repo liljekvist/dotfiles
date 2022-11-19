@@ -1,3 +1,0 @@
-2022-11-19 00:45:52.931 [info] [perf] Render performance baseline is 34ms
-2022-11-19 00:46:10.948 [error] [File Watcher (parcel)] Unexpected error: basic_string::_M_create (EUNKNOWN) (path: /home/liljekvist)
-2022-11-19 00:46:10.950 [error] [File Watcher (universal)] restarting watcher after error: basic_string::_M_create
