@@ -1,0 +1,4 @@
+2022-11-19 01:03:10.067 [info] update#ctor - updates are disabled as there is no update URL
+2022-11-19 01:03:11.358 [info] Starting extension host with pid 18483 (fork() took 7 ms).
+2022-11-19 01:03:28.440 [info] Waiting for extension host with pid 18483 to exit.
+2022-11-19 01:03:28.446 [info] Extension host with pid 18483 exited with code: 0, signal: null.

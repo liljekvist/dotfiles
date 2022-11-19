@@ -1,0 +1,110 @@
+2022-11-19 01:04:33.626 [info] Validating found git in: git
+2022-11-19 01:04:33.627 [info] Using git 2.38.1 from git
+2022-11-19 01:04:33.627 [info] > git rev-parse --show-toplevel [3ms]
+2022-11-19 01:04:33.627 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2022-11-19 01:04:33.627 [info] > git rev-parse --show-toplevel [0ms]
+2022-11-19 01:04:33.627 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2022-11-19 01:04:33.627 [info] Log level: Info
+2022-11-19 01:04:33.627 [info] Open repository: /home/liljekvist/.config
+2022-11-19 01:04:33.627 [info] > git status -z -uall [29ms]
+2022-11-19 01:04:33.627 [info] > git rev-parse --show-toplevel [23ms]
+2022-11-19 01:04:33.627 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2022-11-19 01:04:33.627 [info] > git remote --verbose [44ms]
+2022-11-19 01:04:33.627 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [50ms]
+2022-11-19 01:04:33.627 [info] > git rev-parse --show-toplevel [17ms]
+2022-11-19 01:04:33.627 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2022-11-19 01:04:33.627 [info] > git config --get commit.template [28ms]
+2022-11-19 01:04:33.627 [info] > git rev-parse --show-toplevel [8ms]
+2022-11-19 01:04:33.627 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2022-11-19 01:04:33.633 [info] > git rev-parse --show-toplevel [8ms]
+2022-11-19 01:04:33.633 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2022-11-19 01:04:33.641 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2022-11-19 01:04:33.677 [info] > git status -z -uall [9ms]
+2022-11-19 01:04:33.677 [info] > git remote --verbose [13ms]
+2022-11-19 01:04:33.678 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [16ms]
+2022-11-19 01:04:33.678 [info] > git rev-parse --show-toplevel [40ms]
+2022-11-19 01:04:33.678 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2022-11-19 01:04:33.684 [info] > git config --get commit.template [9ms]
+2022-11-19 01:04:33.687 [info] > git rev-parse --show-toplevel [5ms]
+2022-11-19 01:04:33.687 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2022-11-19 01:04:33.698 [info] > git rev-parse --show-toplevel [6ms]
+2022-11-19 01:04:33.698 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2022-11-19 01:04:33.704 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2022-11-19 01:04:33.715 [info] > git rev-parse --show-toplevel [11ms]
+2022-11-19 01:04:33.715 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2022-11-19 01:04:33.721 [info] > git rev-parse --show-toplevel [1ms]
+2022-11-19 01:04:33.721 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2022-11-19 01:04:33.726 [info] > git rev-parse --show-toplevel [0ms]
+2022-11-19 01:04:33.727 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2022-11-19 01:04:33.732 [info] > git rev-parse --show-toplevel [1ms]
+2022-11-19 01:04:33.744 [info] > git rev-parse --git-dir --git-common-dir [7ms]
+2022-11-19 01:04:33.747 [info] Log level: Info
+2022-11-19 01:04:33.747 [info] Open repository: /home/liljekvist/dotfiles
+2022-11-19 01:04:33.769 [info] > git status -z -uall [11ms]
+2022-11-19 01:04:33.769 [info] > git rev-parse --show-toplevel [6ms]
+2022-11-19 01:04:33.769 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2022-11-19 01:04:33.774 [info] > git remote --verbose [19ms]
+2022-11-19 01:04:33.774 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [23ms]
+2022-11-19 01:04:33.775 [info] > git rev-parse --show-toplevel [2ms]
+2022-11-19 01:04:33.779 [info] > git config --get commit.template [11ms]
+2022-11-19 01:04:33.784 [info] > git rev-parse --git-dir --git-common-dir [5ms]
+2022-11-19 01:04:33.788 [info] Log level: Info
+2022-11-19 01:04:33.788 [info] Open repository: /home/liljekvist/yay
+2022-11-19 01:04:33.859 [info] > git status -z -uall [58ms]
+2022-11-19 01:04:33.860 [info] > git rev-parse --show-toplevel [55ms]
+2022-11-19 01:04:33.860 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2022-11-19 01:04:33.860 [info] > git remote --verbose [63ms]
+2022-11-19 01:04:33.860 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [68ms]
+2022-11-19 01:04:33.860 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [76ms]
+2022-11-19 01:04:33.863 [info] > git config --get commit.template [5ms]
+2022-11-19 01:04:33.869 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2022-11-19 01:04:33.970 [info] > git rev-parse --show-toplevel [1ms]
+2022-11-19 01:04:33.970 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2022-11-19 01:04:34.121 [info] > git check-ignore -v -z --stdin [7ms]
+2022-11-19 01:04:34.154 [info] > git show --textconv :hikari/hikari.conf [14ms]
+2022-11-19 01:04:34.157 [info] > git ls-files --stage -- /home/liljekvist/.config/hikari/hikari.conf [5ms]
+2022-11-19 01:04:35.834 [info] > git status -z -uall [8ms]
+2022-11-19 01:04:35.834 [info] > git remote --verbose [18ms]
+2022-11-19 01:04:35.834 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [29ms]
+2022-11-19 01:04:35.835 [info] > git config --get commit.template [2ms]
+2022-11-19 01:04:35.845 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2022-11-19 01:04:37.169 [info] > git check-ignore -v -z --stdin [1ms]
+2022-11-19 01:04:40.865 [info] > git status -z -uall [4ms]
+2022-11-19 01:04:40.866 [info] > git remote --verbose [9ms]
+2022-11-19 01:04:40.866 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [12ms]
+2022-11-19 01:04:40.867 [info] > git config --get commit.template [2ms]
+2022-11-19 01:04:40.873 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2022-11-19 01:04:45.900 [info] > git status -z -uall [5ms]
+2022-11-19 01:04:45.901 [info] > git remote --verbose [10ms]
+2022-11-19 01:04:45.901 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [15ms]
+2022-11-19 01:04:45.901 [info] > git config --get commit.template [1ms]
+2022-11-19 01:04:45.908 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2022-11-19 01:04:50.961 [info] > git remote --verbose [25ms]
+2022-11-19 01:04:50.962 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [36ms]
+2022-11-19 01:04:50.964 [info] > git status -z -uall [17ms]
+2022-11-19 01:04:50.965 [info] > git config --get commit.template [5ms]
+2022-11-19 01:04:50.976 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2022-11-19 01:04:56.001 [info] > git status -z -uall [4ms]
+2022-11-19 01:04:56.001 [info] > git remote --verbose [8ms]
+2022-11-19 01:04:56.002 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [11ms]
+2022-11-19 01:04:56.002 [info] > git config --get commit.template [1ms]
+2022-11-19 01:04:56.009 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2022-11-19 01:05:01.054 [info] > git status -z -uall [13ms]
+2022-11-19 01:05:01.054 [info] > git remote --verbose [24ms]
+2022-11-19 01:05:01.055 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [32ms]
+2022-11-19 01:05:01.056 [info] > git config --get commit.template [4ms]
+2022-11-19 01:05:01.076 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
