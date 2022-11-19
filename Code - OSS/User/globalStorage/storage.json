@@ -8,6 +8,9 @@
             },
             {
                 "folderUri": "file:///home/liljekvist/.config"
+            },
+            {
+                "folderUri": "file:///home/liljekvist/.config%20%28copy%201%29"
             }
         ],
         "emptyWindows": []
