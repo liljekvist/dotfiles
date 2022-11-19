@@ -1,0 +1,9 @@
+2022-11-19 02:00:11.819 [error] Error: File not found
+    at h.handleSetInputError (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2745:95931)
+    at async h.setInput (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2745:95171)
+    at async a.doSetInput (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2743:6429)
+    at async a.doOpenEditor (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2743:4791)
+    at async a.openEditor (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2743:3783)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2970:16742
+2022-11-19 02:00:15.032 [info] [perf] Render performance baseline is 31ms
+2022-11-19 02:00:22.064 [error] Error while registering log channel file:///home/liljekvist/.config/Code%20-%20OSS/logs/20221119T020010/userDataSync.log Timed out while waiting for file to be created

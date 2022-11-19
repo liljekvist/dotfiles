@@ -1,0 +1,2 @@
+2022-11-19 01:50:47.696 [info] [perf] Render performance baseline is 32ms
+2022-11-19 01:50:54.747 [error] Error while registering log channel file:///home/liljekvist/.config/Code%20-%20OSS/logs/20221119T015043/userDataSync.log Timed out while waiting for file to be created

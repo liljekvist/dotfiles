@@ -1,6 +1,10 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
+SETUVAR --export GTK_THEME:Catppuccin\x2dblue\x3adark
+SETUVAR --export MOZ_ENABLE_WAYLAND:1
+SETUVAR --export SDL_VIDEODRIVER:wayland
 SETUVAR --export XDG_CONFIG_HOME:/home/liljekvist/\x2econfig
+SETUVAR --export XDG_RUNTIME_DIR:/tmp
 SETUVAR __done_min_cmd_duration:10000
 SETUVAR __done_notification_urgency_level:low
 SETUVAR __fish_initialized:3400
